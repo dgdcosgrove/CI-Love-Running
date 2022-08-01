@@ -13,6 +13,7 @@ body {
 }
 
 /* headings and logo*/
+
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -27,6 +28,7 @@ h1, h2 {
 }
 
 /* navigation links */
+
 #menu {
     float: right;
     font-size: 110%;
@@ -57,6 +59,7 @@ h1, h2 {
 }
 
 /* hero image and cover text*/
+
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -75,12 +78,14 @@ h1, h2 {
     background: url('../images/hero-image.webp') no-repeat center center;
 
 /* animates zoom effect on loading page */
+
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
 /* creates the level of zoom for hero image */
+
 @keyframes hero-zoom {
     from{
         transform: scale(1);
@@ -111,6 +116,7 @@ h1, h2 {
 }
 
 /* club ethos */
+
 #club-ethos {
     height: 600px;
 }
@@ -212,4 +218,25 @@ hr {
 
 #times h2 {
     color: #fafafa;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    	display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
